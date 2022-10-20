@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+}
+
+.left{
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+    font-size: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    color:grey;
+}
+
+span{
+    color:blue;
+}
+
+h5{
+    font-size: 20px;
+}
+
+
+.right{
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+    align-items: center;
+}
+
+input{
+    margin-left: 20px;
+    margin-right:20px;
+    width:10%;
+    height: 30px;
+    border: 2px solid grey;
+ border-radius: 15px;
+    border-right: none;
+}
+
+h4{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+button{
+    color:white;
+    background-color: black;
+    padding: 10px;
+}
+.bar{
+    display: flex;
+    background-color: blueviolet;
+
+}
+
+.leftbar{
+    height:500px;
+    width:20%;
+    position: fixed;
+    top:100px;
+    left:0;
+    overflow-y: scroll;
+}
+.centerbar{
+    position: absolute;
+    top:100px;
+    left:20%;
+    width:60%;
+}
+
+.rightbar{
+    height:500px;
+    width:20%;
+    position: fixed;
+    right: 0;
+    top:100px;
+    /* overflow-x: scroll; */
+}
+
+.leftbar ul li, .rightbar ul li{
+    list-style: none;
+    margin: 20px;
+    padding: 10px;
+    font-size: 20px;
+    color:grey;
+    
+}
